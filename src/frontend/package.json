@@ -2,11 +2,17 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "serve": "node aspnetcore-https.js && vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
+    "scripts": {
+    "serve": "run-script-os",
+    "build": "run-script-os",
+    "lint": "run-script-os",
+    "serve:darwin:linux": "export NODE_OPTIONS=--openssl-legacy-provider && node aspnetcore-https.js && vue-cli-service serve",
+    "build:darwin:linux": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint:darwin:linux": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint",
+    "serve:windows": "SET NODE_OPTIONS=--openssl-legacy-provider && node aspnetcore-https.js && vue-cli-service serve",
+    "build:windows": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint:windows": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
+    },
   "dependencies": {
     "core-js": "^3.6.5",
     "jest": "^27.4.3",
@@ -20,6 +26,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "run-script-os": "^1.1.6",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
