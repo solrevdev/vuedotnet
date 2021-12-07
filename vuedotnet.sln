@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontend", "src\frontend\frontend.esproj", "{6F4F5026-6B27-413E-B598-7944EC8D5B65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "src\backend\backend.csproj", "{34971DB6-9140-46EF-AEBB-745124DE8099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{6F4F5026-6B27-413E-B598-7944EC8D5B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F4F5026-6B27-413E-B598-7944EC8D5B65}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F4F5026-6B27-413E-B598-7944EC8D5B65}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{34971DB6-9140-46EF-AEBB-745124DE8099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34971DB6-9140-46EF-AEBB-745124DE8099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34971DB6-9140-46EF-AEBB-745124DE8099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34971DB6-9140-46EF-AEBB-745124DE8099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
