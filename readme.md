@@ -1,6 +1,6 @@
 # Standalone Vue Project talking to ASP.NET Core
 
-See issue - https://github.com/dotnet/aspnetcore/issues/38861#issuecomment-1018878551
+See issue - https://github.com/dotnet/aspnetcore/issues/38861
 
 I read this from Scott Hanselman  - https://www.hanselman.com/blog/javascript-and-typescript-projects-with-react-angular-or-vue-in-visual-studio-2022-with-or-without-net
 
